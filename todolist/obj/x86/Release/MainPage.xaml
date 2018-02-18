@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="todolist.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:todolist"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#082b2b">
+        <Image Source="/Assets/MainTheme1280x720.png" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+        <Button x:ConnectionId='1' x:Name="MainButton" BorderThickness="2" BorderBrush="Black" Content="To Do"                          HorizontalAlignment="Center" Visibility="Visible" RequestedTheme="Default" Width="120" Height="80"/>
+
+    </Grid>
+</Page>
+
